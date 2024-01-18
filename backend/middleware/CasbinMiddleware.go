@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"backend/common"
-	"backend/config"
-	"backend/repository"
-	"backend/response"
+	"github.com/esyede/goadmin/backend/common"
+	"github.com/esyede/goadmin/backend/config"
+	"github.com/esyede/goadmin/backend/repository"
+	"github.com/esyede/goadmin/backend/response"
 	"strings"
 	"sync"
 

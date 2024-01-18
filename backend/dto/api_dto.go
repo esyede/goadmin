@@ -1,6 +1,6 @@
 package dto
 
-import "backend/model"
+import "github.com/esyede/goadmin/backend/model"
 
 type ApiTreeDto struct {
 	ID       int          `json:"ID"`

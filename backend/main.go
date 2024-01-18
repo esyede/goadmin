@@ -1,11 +1,11 @@
 package main
 
 import (
-	"backend/common"
-	"backend/config"
-	"backend/middleware"
-	"backend/repository"
-	"backend/routes"
+	"github.com/esyede/goadmin/backend/common"
+	"github.com/esyede/goadmin/backend/config"
+	"github.com/esyede/goadmin/backend/middleware"
+	"github.com/esyede/goadmin/backend/repository"
+	"github.com/esyede/goadmin/backend/routes"
 	"context"
 	"fmt"
 	"net/http"

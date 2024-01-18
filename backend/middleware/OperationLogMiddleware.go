@@ -1,9 +1,9 @@
 package middleware
 
 import (
-	"backend/config"
-	"backend/model"
-	"backend/repository"
+	"github.com/esyede/goadmin/backend/config"
+	"github.com/esyede/goadmin/backend/model"
+	"github.com/esyede/goadmin/backend/repository"
 	"strings"
 	"time"
 

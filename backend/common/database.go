@@ -1,8 +1,8 @@
 package common
 
 import (
-	"backend/config"
-	"backend/model"
+	"github.com/esyede/goadmin/backend/config"
+	"github.com/esyede/goadmin/backend/model"
 	"fmt"
 
 	"gorm.io/driver/mysql"

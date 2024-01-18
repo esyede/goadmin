@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"backend/common"
-	"backend/model"
+	"github.com/esyede/goadmin/backend/common"
+	"github.com/esyede/goadmin/backend/model"
 
 	"github.com/thoas/go-funk"
 )

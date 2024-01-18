@@ -1,11 +1,11 @@
 package controller
 
 import (
-	"backend/common"
-	"backend/model"
-	"backend/repository"
-	"backend/response"
-	"backend/vo"
+	"github.com/esyede/goadmin/backend/common"
+	"github.com/esyede/goadmin/backend/model"
+	"github.com/esyede/goadmin/backend/repository"
+	"github.com/esyede/goadmin/backend/response"
+	"github.com/esyede/goadmin/backend/vo"
 	"fmt"
 	"strconv"
 

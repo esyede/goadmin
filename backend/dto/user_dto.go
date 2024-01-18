@@ -1,6 +1,6 @@
 package dto
 
-import "backend/model"
+import "github.com/esyede/goadmin/backend/model"
 
 // Return the current user information to the front end
 type UserInfoDto struct {

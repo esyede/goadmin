@@ -1,7 +1,7 @@
 package common
 
 import (
-	"backend/config"
+	"github.com/esyede/goadmin/backend/config"
 	"fmt"
 	"os"
 	"time"

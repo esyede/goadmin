@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"backend/response"
+	"github.com/esyede/goadmin/backend/response"
 	"time"
 
 	"github.com/gin-gonic/gin"

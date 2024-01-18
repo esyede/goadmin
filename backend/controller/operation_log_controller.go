@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"backend/common"
-	"backend/repository"
-	"backend/response"
-	"backend/vo"
+	"github.com/esyede/goadmin/backend/common"
+	"github.com/esyede/goadmin/backend/repository"
+	"github.com/esyede/goadmin/backend/response"
+	"github.com/esyede/goadmin/backend/vo"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"

@@ -1,9 +1,9 @@
 package common
 
 import (
-	"backend/config"
-	"backend/model"
-	"backend/util"
+	"github.com/esyede/goadmin/backend/config"
+	"github.com/esyede/goadmin/backend/model"
+	"github.com/esyede/goadmin/backend/util"
 	"errors"
 
 	"github.com/thoas/go-funk"

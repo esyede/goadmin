@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"backend/common"
-	"backend/config"
-	"backend/middleware"
+	"github.com/esyede/goadmin/backend/common"
+	"github.com/esyede/goadmin/backend/config"
+	"github.com/esyede/goadmin/backend/middleware"
 	"fmt"
 	"time"
 

@@ -1,10 +1,10 @@
 package repository
 
 import (
-	"backend/common"
-	"backend/dto"
-	"backend/model"
-	"backend/vo"
+	"github.com/esyede/goadmin/backend/common"
+	"github.com/esyede/goadmin/backend/dto"
+	"github.com/esyede/goadmin/backend/model"
+	"github.com/esyede/goadmin/backend/vo"
 	"errors"
 	"fmt"
 	"strings"

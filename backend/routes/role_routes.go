@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"backend/controller"
-	"backend/middleware"
+	"github.com/esyede/goadmin/backend/controller"
+	"github.com/esyede/goadmin/backend/middleware"
 
 	jwt "github.com/appleboy/gin-jwt/v2"
 	"github.com/gin-gonic/gin"

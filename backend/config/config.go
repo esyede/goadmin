@@ -1,7 +1,7 @@
 package config
 
 import (
-	"backend/util"
+	"github.com/esyede/goadmin/backend/util"
 	"fmt"
 	"os"
 
