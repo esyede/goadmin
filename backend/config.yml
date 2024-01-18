@@ -1,0 +1,50 @@
+# delelopment
+system:
+  # 'debug' / 'release' / 'test'
+  mode: debug
+  url-path-prefix: api
+  port: 8088
+  # migrate fake data (change this to 'false' when in 'mode: release')
+  init-data: true
+  rsa-public-key: backend-pub.pem
+  rsa-private-key: backend-priv.pem
+
+# zap logger settings
+logs:
+  # -1: Debug, 0: Info, 1: Warning, 2: Error, 3: DPanic, 4: Panic, 5: Fatal
+  level: -1
+  path: logs
+  # max filesize (in megabytes)
+  max-size: 50
+  max-backups: 100
+  # storage time (in days)
+  max-age: 30
+  compress: false
+
+mysql:
+  username: root
+  password:
+  database: gin_admin
+  host: localhost
+  port: 3306
+  query: parseTime=True&loc=Local&timeout=10000ms
+  log-mode: true
+  table-prefix:
+  charset: utf8mb4
+  collation: utf8mb4_unicode_ci
+
+# casbin settings
+casbin:
+  model-path: 'rbac_model.conf'
+
+# jwt settings
+jwt:
+  realm: ginadmin
+  key: CHANGE_ME_ASAP
+  timeout: 12
+  max-refresh: 12
+
+# rate-limit settings
+rate-limit:
+  fill-interval: 50
+  capacity: 200
